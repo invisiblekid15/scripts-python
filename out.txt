@@ -1,0 +1,13 @@
+<MaterialTableComponent
+title="List of Disruptions"
+columns={[
+{ title : "id", field : "id"},
+{ title : "type", field : "type"},
+{ title : "description", field : "description"},
+{ title : "start_date", field : "start_date"},
+{ title : "end_date", field : "end_date"},
+{ title : "bid_count", field : "bid_count"},
+{ title : "deleted", field : "deleted"},
+]}
+data={[]}
+/>

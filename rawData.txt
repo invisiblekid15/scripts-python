@@ -1,0 +1,304 @@
+documenttype	int(11)	NO	PRI		
+documentno	varchar(50)	NO	PRI		
+documentdate	datetime	NO	MUL		
+documenttime	datetime	NO			
+customerno	varchar(20)	NO			
+membershipno	varchar(10)	NO			
+firstname	varchar(50)	NO	MUL		
+middlename	varchar(50)	NO	MUL		
+lastname	varchar(50)	NO	MUL		
+e_mailid	varchar(50)	NO	MUL		
+e_mailid2	varchar(50)	NO			
+phoneno	varchar(22)	NO	MUL		
+mobileno	varchar(20)	NO	MUL		
+faxno	varchar(22)	NO			
+countryofresidence	varchar(45)	NO			
+queryreferenceno	varchar(20)	NO			
+businesstype	int(11)	NO			
+sourceofquery	int(11)	NO			
+no_series	varchar(10)	NO			
+paymentreceived	smallint(6)	NO			
+lodreceived	smallint(6)	NO			
+lodreceiptdate	datetime	NO			
+lodreceipttime	datetime	NO			
+shortcutdimension1code	varchar(20)	NO			
+shortcutdimension2code	varchar(20)	NO			
+querystate	int(11)	NO			
+querystatus	int(11)	NO			
+userid	varchar(30)	NO			
+queryno	varchar(20)	NO			
+querydate	datetime	NO			
+gdstype	int(11)	NO			
+pnrno	varchar(20)	NO			
+homephoneno	varchar(22)	NO	MUL		
+bill_toname	varchar(30)	NO			
+bill_toname2	varchar(30)	NO			
+bill_toaddress	varchar(30)	NO			
+bill_toaddress2	varchar(30)	NO			
+bill_tocity	varchar(30)	NO			
+bill_topostcode	varchar(20)	NO			
+bill_tocountry	varchar(10)	NO			
+bill_tostate	varchar(10)	NO			
+ship_toname	varchar(30)	NO			
+ship_toname2	varchar(30)	NO			
+ship_toaddress	varchar(30)	NO			
+ship_toaddress2	varchar(30)	NO			
+ship_tocity	varchar(30)	NO			
+ship_topostcode	varchar(20)	NO			
+ship_tocountry	varchar(10)	NO			
+ship_tostate	varchar(10)	NO			
+dealcode	varchar(20)	NO			
+qcpassed	smallint(6)	NO			
+bookingstatusflag	varchar(10)	NO			
+externalissuance	smallint(6)	NO			
+queued_upfor	int(11)	NO			
+todispatch	smallint(6)	NO			
+dispatched	smallint(6)	NO			
+dispatchdate	datetime	NO			
+deliverystatus	int(11)	NO			
+expecteddeliverydate	datetime	NO			
+deliverydate	datetime	NO			
+ccfollowup	smallint(6)	NO			
+mmtlocation	varchar(20)	NO			
+incidentid	varchar(30)	NO			
+pickupbyphoneno	varchar(15)	NO			
+photoidproof	int(11)	NO			
+remarks	varchar(30)	NO			
+autocanc_executed	smallint(6)	NO			
+cancellationrequest	smallint(6)	NO			
+currencycode	varchar(10)	NO			
+currencyfactor	decimal(38,20)	NO			
+shortcutdimension3code	varchar(20)	NO			
+shortcutdimension4code	varchar(20)	NO			
+shortcutdimension5code	varchar(20)	NO			
+shortcutdimension6code	varchar(20)	NO			
+onlinequery	smallint(6)	NO			
+gen_bus_postinggroup	varchar(10)	NO			
+officialtravelglaccount	varchar(20)	NO			
+letterreceiptdate	datetime	NO			
+passportreceived	smallint(6)	NO			
+passportreceiptdate	datetime	NO			
+packageno	varchar(20)	NO			
+companyname	varchar(50)	NO			
+bookingcreated	smallint(6)	NO			
+certificatereceipttime	datetime	NO			
+bill_tocustomerno	varchar(20)	NO			
+ipaddress	varchar(20)	NO			
+canc_letterfollowupstatus	int(11)	NO			
+auth_letterfollowupstatus	int(11)	NO			
+servicevoucherissued	smallint(6)	NO			
+cityofresidence	varchar(50)	NO			
+quotationmailed	smallint(6)	NO			
+itinerarymailed	smallint(6)	NO			
+itsreportmailed	smallint(6)	NO			
+eticketmailed	smallint(6)	NO			
+proformainvoicemailed	smallint(6)	NO			
+ticketdispatched	smallint(6)	NO			
+servicevoucherdispatched	smallint(6)	NO			
+externalorderdate	datetime	NO			
+customername	varchar(50)	NO			
+serviceablecity	varchar(30)	NO			
+itinerarycode	varchar(20)	NO			
+inclusioncode	varchar(20)	NO			
+querygenerated	smallint(6)	NO			
+ticketdelivered	smallint(6)	NO			
+servicevoucherdelivered	smallint(6)	NO			
+visareceived	smallint(6)	NO			
+visareceiptdate	datetime	NO			
+visareceipttime	datetime	NO			
+departurecity	varchar(30)	NO			
+departurecountry	varchar(30)	NO			
+departuredate	datetime	NO			
+no_ofadult	int(11)	NO			
+no_ofchild	int(11)	NO			
+no_ofinfant	int(11)	NO			
+no_ofsinglerooms	int(11)	NO			
+no_ofdoublerooms	int(11)	NO			
+no_ofextrabed	int(11)	NO			
+specialrequest	varchar(250)	NO			
+purposeoftravel	varchar(50)	NO			
+durationoftravel	varchar(30)	NO			
+requestedhotelcategory	varchar(30)	NO			
+budgetamount	decimal(38,20)	NO			
+packagename	varchar(100)	NO			
+nationality	varchar(30)	NO			
+sendmail	smallint(6)	NO			
+sendmail2	smallint(6)	NO			
+stampede_ticketreceived	smallint(6)	NO			
+itsissued	smallint(6)	NO			
+prioritylevel	int(11)	NO			
+currencydecln_formrcvd	smallint(6)	NO			
+currencydecln_formrcvd_date	datetime	NO			
+bookingformrcvd	smallint(6)	NO			
+bookingformrcvd_date	datetime	NO			
+rtoreceived	smallint(6)	NO			
+rtoreceiptdate	datetime	NO			
+documentreasoncode	varchar(10)	NO			
+couponno	varchar(50)	NO			
+couponamount	decimal(38,20)	NO			
+dayshift	int(11)	NO			
+shortcutdimension7code	varchar(20)	NO			
+pipelinefollowupdate	datetime	NO			
+pipelinestatus	int(11)	NO			
+pnrno_2	varchar(20)	NO			
+holdbooking	smallint(6)	NO			
+corporatecustomerno	varchar(20)	NO			
+paymentreceiveddate	datetime	NO			
+creationdate	datetime	NO	MUL		
+stampede_ticketfollowstatus	int(11)	NO			
+visafollowupstatus	int(11)	NO			
+paymentcommit	smallint(6)	NO			
+paymentcommitdate	datetime	NO			
+guaranteeamount	smallint(6)	NO			
+guaranteeamountdate	datetime	NO			
+ivrno	varchar(20)	NO			
+ivrno_date	datetime	NO	MUL		
+uatp	smallint(6)	NO			
+uatpdate	datetime	NO			
+edc	smallint(6)	NO			
+edcdate	datetime	NO			
+cardstored	smallint(6)	NO			
+cardstoreddate	datetime	NO			
+servicevoucherissueddate	datetime	NO			
+qcstatus	int(11)	NO			
+qcstatusdate	datetime	NO			
+datechangedone	smallint(6)	NO			
+datechangedonedate	datetime	NO			
+cancellationdone	smallint(6)	NO			
+cancellationdonedate	datetime	NO			
+transfered	smallint(6)	NO			
+dupebooking	smallint(6)	NO			
+pipelinebooking	smallint(6)	NO			
+deletebooking	smallint(6)	NO			
+dispatcheddate	datetime	NO			
+popupmessage	varchar(200)	NO			
+affiliateagent	varchar(50)	NO			
+productgroupcode	int(11)	NO			
+returndate	datetime	NO			
+affiliateid	varchar(20)	NO			
+refunde_mailsent	smallint(6)	NO			
+packagetype	int(11)	NO			
+destinationtype	int(11)	NO			
+promotionalemail	smallint(6)	NO			
+promotionalsms	smallint(6)	NO			
+partialpaymentrec	smallint(6)	NO			
+reasoncode	varchar(10)	NO			
+agentcode	varchar(10)	NO			
+pipelinestatuschangedate	datetime	NO			
+pipelinefollowuptime	datetime	NO			
+pipelinerejectionreason	int(11)	NO			
+pipelinestatuschangetime	datetime	NO			
+pipelinestatuschangedby	varchar(20)	NO			
+reasonofcall	int(11)	NO			
+stdcode	varchar(10)	NO			
+isdcode	varchar(10)	NO			
+externalissuanceuserid	varchar(30)	NO			
+externalbookingid	varchar(50)	NO			
+lobcode	varchar(20)	NO	MUL		
+bookingid	varchar(50)	NO			
+invoicesent	smallint(6)	NO			
+hidedeletedlines	smallint(6)	NO			
+externalref_no	varchar(50)	NO	MUL		
+dispatchedtime	datetime	NO			
+dispatchedby	varchar(20)	NO			
+authorized	smallint(6)	NO			
+authuserid	varchar(30)	NO			
+regionid	varchar(30)	NO			
+movefromexceptiondate	datetime	NO			
+e_ticketdatesendbyivrs	datetime	NO			
+supplierid	varchar(20)	NO			
+originaldept_code	varchar(20)	NO			
+amountduedate	datetime	NO			
+contactid	varchar(30)	NO			
+opportunityid	varchar(30)	NO			
+bookingstatus	int(11)	NO			
+agentid	varchar(20)	NO			
+sourcecompanyname	varchar(100)	NO			
+qcacceptgpm	decimal(38,20)	YES			
+qcrejectgpm	decimal(38,20)	YES			
+mtogpm	decimal(38,20)	YES			
+mtdgpm	decimal(38,20)	YES			
+postdeparturegpm	decimal(38,20)	YES			
+postdeparturedate	datetime	YES			
+qcacceptuserid	varchar(100)	YES			
+qcrejectuserid	varchar(100)	YES			
+mtouserid	varchar(100)	YES			
+mtduserid	varchar(100)	YES			
+postdepartureuserid	varchar(100)	YES			
+noofqcreject	int(11)	YES			
+initialqcrejectreason	longtext	YES			
+finalqcrejectreason	longtext	YES			
+qcacceptinitialdate	datetime	YES			
+qcacceptfinaldate	datetime	YES			
+qcrejectinitialdate	datetime	YES			
+qcrejectfinaldate	datetime	YES			
+mtoinitialdate	datetime	YES			
+mtofinaldate	datetime	YES			
+mtdinitialdate	datetime	YES			
+mtdfinaldate	datetime	YES			
+mindeparturedate	datetime	YES			
+sellingpricemto	decimal(38,20)	YES			
+sellingpriceqcaccept	decimal(38,20)	YES			
+sellingpriceqcreject	decimal(38,20)	YES			
+sellingpricemtd	decimal(38,20)	YES			
+committedamountmto	decimal(38,20)	YES			
+committedamountqcreject	decimal(38,20)	YES			
+committedamountqcaccept	decimal(38,20)	YES			
+committedamountmtd	decimal(38,20)	YES			
+receivedamountmto	decimal(38,20)	YES			
+receivedamountqcreject	decimal(38,20)	YES			
+receivedamountqcaccept	decimal(38,20)	YES			
+receivedamountmtd	decimal(38,20)	YES			
+partialqcastatus	int(11)	YES			
+partialqcacceptgpm	decimal(38,20)	YES			
+partialqcacceptinitialdate	datetime	YES			
+partialqcacceptfinaldate	datetime	YES			
+partialqcacceptuserid	varchar(100)	YES			
+bpmprocesscall	int(11)	YES		2	
+initialqcacceptreason	longtext	YES			
+finalqcacceptreason	longtext	YES			
+conveniencefee	decimal(38,20)	YES			
+bookingsubstatus	int(11)	YES			
+invoicedatetimesendbyivrs	datetime	NO			
+mojobookingstatus	varchar(30)	YES			
+dmcname	varchar(100)	YES			
+lobname	varchar(35)	YES			
+companycode	varchar(50)	YES			
+metaname	varchar(20)	YES			
+mojocreateddatetime	timestamp	NO	MUL	CURRENT_TIMESTAMP	
+mojoupdateddatetime	timestamp	NO	MUL	CURRENT_TIMESTAMP	on update CURRENT_TIMESTAMP
+cancellationassuranceamt	decimal(38,20)	NO			
+splrequest	int(11)	NO			
+voidbooking	tinyint(4)	YES			
+servicechargereversal	decimal(38,20)	YES		0.00000000000000000000	
+gstin	varchar(50)	YES			
+gstinentityname	varchar(100)	YES			
+gstmodel	int(11)	YES		1	
+gststatecode	varchar(10)	YES			
+gstcustaddress	varchar(500)	YES			
+promotiontext	varchar(500)	YES			
+ismmtprivliege	smallint(6)	YES		0	
+mmtpversion	varchar(30)	NO			
+gstcouponflow	tinyint(4)	NO		0	
+bookingtype	smallint(6)	NO		0	
+paymentchargedate	datetime	NO	MUL	1753-01-01 00:00:00	
+sellingprice	decimal(38,20)	YES		0.00000000000000000000	
+tagdestination	varchar(50)	YES			
+packagecode	varchar(50)	YES			
+salesagentid	varchar(50)	YES			
+source	varchar(20)	YES			
+appversion	varchar(100)	YES			
+welcomecall	datetime	YES			
+welcomeemail	datetime	YES			
+voucherissuacedate	datetime	YES			
+briefingcalldate	datetime	YES			
+isfreecancellation	int(11)	YES		0	
+freecancellationdate	datetime	YES	MUL		
+modificationtype	varchar(30)	YES			
+modificationstatus	tinyint(4)	YES			
+newbookingid	varchar(20)	YES			
+UUID	varchar(100)	NO	MUL		
+profiletype	int(11)	NO		0	
+mobilenocommid	varchar(250)	NO	MUL		
+emailcommid	varchar(250)	NO	MUL		
+iseligibleforacceleratedblack	smallint(6)	NO	
